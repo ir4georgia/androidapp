@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">2021 MML Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Welcome to Tech Pub Ops</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="android_development_on_kotlin">Android Development on Kotlin</string>
+
+    <string name="banner_ad_unit_id">/8663477/NCAA/sports/m_basketball/androidphone</string>
+    <string name="rect_ad_unit_id">/8663477/NCAA/sports/m_basketball/androidphone</string>
+</resources>
