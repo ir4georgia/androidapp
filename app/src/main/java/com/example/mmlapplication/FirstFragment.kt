@@ -31,13 +31,13 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
         val mPublisherAdView300x50 : PublisherAdView = view.findViewById(R.id.publisherAdView_300x50)
-//        mPublisherAdView300x50.setManualImpressionsEnabled(true)
-        mPublisherAdView300x50.setAdSizes(AdSize(300, 50))
+        mPublisherAdView300x50.setManualImpressionsEnabled(true)
+        mPublisherAdView300x50.setAdSizes(AdSize(320, 50))
 
 
         val mPublisherAdView300x250 : PublisherAdView = view.findViewById(R.id.publisherAdView_300x250)
-        //mPublisherAdView300x250.setManualImpressionsEnabled(true)
-        //mPublisherAdView300x250.setAdSizes(AdSize(300, 250))
+        mPublisherAdView300x250.setManualImpressionsEnabled(true)
+        mPublisherAdView300x250.setAdSizes(AdSize(300, 250))
 
 
         val adRequest300x50 = PublisherAdRequest.Builder()
